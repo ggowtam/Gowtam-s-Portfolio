@@ -91,7 +91,7 @@ export default function Skills({ color }) {
             }}
           >
             {skills.map((skill, index) => (
-                <Fade key={index} bottom>
+                <Fade key={index} bottom >
               <li key={index} className="bullet-item">
                 <Flex align="center">
                   {/* Add bullet icon */}
@@ -109,8 +109,15 @@ export default function Skills({ color }) {
                       d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                       clipRule="evenodd"
                     ></path>
-                  </svg>
-                  <span>{skill}</span>
+                  </svg >
+              <li key={index} className="bullet-item">
+  <Flex align="center">
+    <div className="icons">
+      <i className="fas fa-code"></i> {/* Replace "fa-code" with the appropriate FontAwesome icon class */}
+      <span>{skill}</span>
+    </div>
+  </Flex>
+</li>
                 </Flex>
               </li>
               </Fade>

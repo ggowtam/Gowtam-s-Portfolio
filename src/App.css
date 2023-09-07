@@ -112,6 +112,9 @@ padding-top: 10%;
       }
 
       
+      .contact {
+        padding-left: 170px;
+      }
       html, body {
         max-width: 100%;
         overflow-x: hidden;
@@ -138,36 +141,64 @@ padding-top: 10%;
       
 
       /* CSS for mobile screens (max-width: 768px) */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 653px) {
   /* Select the element(s) you want to hide */
   .animation-container-PP {
     display: none; /* Hide the element */
   }
 
   .Pbox {
-    width: 400px;
-    padding-right: 10%;
+    width: 900px;
+    padding-right: 65%;
+
   /* Show the element */
   }
   .animation-container-S {
-    padding-right: 20%;
+    padding-right: 25%;
+  }
+
+  .animation-container-p {
+    padding-right: 42%;
   }
   .animation-container {
-    width: 400px;;
+    width: 300px;;
   }
   .skill-content{
     padding-right: 20%;
   }
 
-  .skills {
-   padding: 10px;
+  .bullet-item {
+    width: 100px;
+    padding-right: 65%;
   }
-  /* Add any additional styles you want for mobile screens */
-  /* For example, reducing font size or adjusting spacing */
-  .element-to-adjust {
-    font-size: 16px;
-    margin: 10px;
-  }
+
+/* Remove the default bullet point */
+.bullet-item {
+  list-style: none;
+}
+.contact {
+  padding-left: 22px;
+}
+/* Style the text */
+.icons {
+   /* Specify the FontAwesome font family */
+  font-weight: 90; /* Adjust font weight as needed */
+  font-size: 14px; /* Adjust icon size as needed */
+/* Adjust spacing as needed */
+}
+
+
 }
 
 /* CSS for larger screens (min-width: 769px) */
+@media screen and (max-width: 900px) {
+
+  .contact {
+    padding-left: 22px;
+  }
+
+  .row{
+    list-style: none;
+  }
+
+}

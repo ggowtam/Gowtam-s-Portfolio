@@ -109,7 +109,9 @@ export default function Nav({ color }) {
         <Flex alignItems={"center"}>
           <Stack direction={"row"} spacing={7}>
             {isLargerThanMD ? (
+              <div className="row">
               <>
+
                 <Button variant="ghost" onClick={scrollToAbout}>
                   About
                 </Button>
@@ -129,9 +131,10 @@ export default function Nav({ color }) {
                   Contact
                 </Button>
                 <Button  as={Link}  href="https://drive.google.com/file/d/1Ub7OnkZCCeueq0iEjKnduJZtui1la_n6/view?usp=sharing" target="_blank" variant="outline" colorScheme="blue">
-            View Resume
-          </Button>
+                  View Resume
+                  </Button>
               </>
+              </div>
             ) : (
               <></>
             )}
