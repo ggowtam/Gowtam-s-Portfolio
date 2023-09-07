@@ -36,6 +36,9 @@ export default function Contact({ color }) {
                 <a href="mailto:Gowtamssg@gmail.com">
                   <FaEnvelope size={44} color={`${color}.500`} />
                 </a>
+                <a href="tel:+19282557597">
+                  <FaPhone size={44} color={`${color}.500`} />
+                </a>
               </HStack>
             </Center>
             <Center>
