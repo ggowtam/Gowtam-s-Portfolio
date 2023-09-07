@@ -36,3 +36,80 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Remove the previous styles related to bullet points */
+:root {
+  --brand: #38b2ac; /* Set --brand to the initial green color */
+}
+
+
+.bullet-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove any padding or margin */
+  }
+  
+  .bullet-item {
+    display: flex; /* Make the items flex containers */
+    align-items: center; /* Vertically center the items */
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+.bullet-icon {
+  width: 20px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  fill: rgb(56,178,172); /* Change this to your desired color */
+  margin-right: 10px; /* Add spacing between the icon and text */
+}
+
+ .animation-container {
+    flex: 10; /* Takes up the remaining horizontal space */
+    width: 80%; /* Limit the width to 70% of the container (adjust as needed) */
+  }
+  
+  .animation-container-S {
+    flex: 10; /* Takes up the remaining horizontal space */
+    width: 110%; /* Limit the width to 70% of the container (adjust as needed) */
+  }
+  
+
+  .animation-container-p {
+    flex: 10; /* Takes up the remaining horizontal space */
+    width: 80%; /* Limit the width to 70% of the container (adjust as needed) */
+  }
+
+  .animation-container-E {
+    flex: 10; /* Takes up the remaining horizontal space */
+    width: 90%; /* Limit the width to 70% of the container (adjust as needed) */
+padding-left: 10%;
+padding-top: 10%;
+  }
+
+  .animation-container-PP {
+    flex: 10; /* Takes up the remaining horizontal space */
+    width: 80%; /* Limit the width to 70% of the container (adjust as needed) */
+
+  }
+
+  .animated-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 5px;
+  }
+  
+  .animated-button.hovered {
+    background-color: #ff6b6b;
+    transform: scale(1.05);
+  }
+  .animation-container-E {
+    /* Vertically center the content */
+    flex: 10    ; /* Takes up the remaining horizontal space */
+    max-width: 100ch; /* Increase the height to make it taller */
+      }
+
+      
+      
