@@ -38,9 +38,8 @@ export default function Projects({ color }) {
           px={4}
           spacing={4}
           align="center"
-          height="300px"
           justifyContent="center"
-          mt={200}
+ 
         >
           <Carousel showThumbs={false} showStatus={false}>
             <Fade bottom>

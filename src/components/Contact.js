@@ -1,5 +1,5 @@
 import { Container, Divider, Grid, Text, Box, HStack, Heading, Center, Stack } from "@chakra-ui/react";
-import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope, FaPhone } from "react-icons/fa";
 import Lottie from "lottie-react";
 import animationData from "../assets/VH2hQtGFTw.json";
 

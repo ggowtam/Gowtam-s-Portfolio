@@ -112,4 +112,27 @@ padding-top: 10%;
       }
 
       
+      html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+      @media screen and (max-width: 768px) {
+        .project-card {
+          width: 100%; /* Make the cards full width on small screens */
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .project-card-text {
+          font-size: 14px; /* Adjust the font size for mobile screens */
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .project-card {
+          padding: 10px; /* Reduce padding on mobile screens */
+          margin: 10px; /* Reduce margins on mobile screens */
+        }
+      }
       
