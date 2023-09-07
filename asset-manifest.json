@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Gowtam-s-Portfolio/static/css/main.245c4794.css",
-    "main.js": "/Gowtam-s-Portfolio/static/js/main.be52efae.js",
+    "main.css": "/Gowtam-s-Portfolio/static/css/main.77f15160.css",
+    "main.js": "/Gowtam-s-Portfolio/static/js/main.cbd51543.js",
     "static/js/787.6e94a82c.chunk.js": "/Gowtam-s-Portfolio/static/js/787.6e94a82c.chunk.js",
-    "static/media/Oyelabs.webp": "/Gowtam-s-Portfolio/static/media/Oyelabs.8308e424955437a714a8.webp",
     "index.html": "/Gowtam-s-Portfolio/index.html",
-    "main.245c4794.css.map": "/Gowtam-s-Portfolio/static/css/main.245c4794.css.map",
-    "main.be52efae.js.map": "/Gowtam-s-Portfolio/static/js/main.be52efae.js.map",
+    "static/media/Oyelabs.webp": "/Gowtam-s-Portfolio/static/media/Oyelabs.8308e424955437a714a8.webp",
+    "main.77f15160.css.map": "/Gowtam-s-Portfolio/static/css/main.77f15160.css.map",
+    "main.cbd51543.js.map": "/Gowtam-s-Portfolio/static/js/main.cbd51543.js.map",
     "787.6e94a82c.chunk.js.map": "/Gowtam-s-Portfolio/static/js/787.6e94a82c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.245c4794.css",
-    "static/js/main.be52efae.js"
+    "static/css/main.77f15160.css",
+    "static/js/main.cbd51543.js"
   ]
 }
