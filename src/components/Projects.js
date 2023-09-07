@@ -41,7 +41,7 @@ export default function Projects({ color }) {
           justifyContent="center"
  
         >
-          <Carousel showThumbs={false} showStatus={false}>
+          <Carousel className="Pbox" showThumbs={false} showStatus={false}>
             <Fade bottom>
               <Card>
                 <Stack>
