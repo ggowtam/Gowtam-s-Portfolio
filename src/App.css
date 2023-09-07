@@ -158,6 +158,10 @@ padding-top: 10%;
   .skill-content{
     padding-right: 20%;
   }
+
+  .skills {
+   padding: 10px;
+  }
   /* Add any additional styles you want for mobile screens */
   /* For example, reducing font size or adjusting spacing */
   .element-to-adjust {
