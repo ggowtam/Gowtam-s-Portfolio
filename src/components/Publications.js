@@ -40,17 +40,17 @@ const Publications = () => {
           {/* Individual Publication */}
           <Box mb={6}>
           <Reveal>
-            <Text fontWeight={600} fontSize="lg" mb={10}>
+            <Text fontWeight={600} fontSize="lg" mb={8}>
             Convolutional Neural Network-based Automatic Extraction and Fine Generation
             </Text>
             </Reveal>
             <Reveal>
-            <Text fontWeight={400}>
+            <Text fontWeight={400}  mb={2}>
              2nd International Conference on Inventive Research in Computing Applications · Jul 14, 2020
             </Text>
             </Reveal>
             <Reveal>
-            <Text fontSize="md" color="gray.400">
+            <Text fontSize="md" fontWeight={300} >
             Numerous reasons lead to dangerous accidents. Lack of helmet is one of the major reasons for death during accidents. People are negligent regarding helmet usage. This needs to be controlled by proper surveillance. The present traffic control system is mostly based on human power. A police officer cannot manage the whole traffic and look out for rule-breakers. It would be a very tough job and will need a lot of human power to cover all the areas. This can be solved through our new automated system where two-wheelers with no helmets will be recognized through yolov2 and the respective frames are taken from the video from which the number plate of the particular vehicle is extracted and the fine for disregarding traffic rules. This fine detail will be updated over the server and message is sent to the phone number registered along with the number plate. This paper is about an automated system where traffic surveillance videos are scavenged for vehicles, where extraction of number plates of vehicles with no helmet and generation of electronic fine management system takes place.
             </Text>
             </Reveal>

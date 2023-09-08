@@ -82,7 +82,7 @@
     flex: 10; /* Takes up the remaining horizontal space */
     width: 90%; /* Limit the width to 70% of the container (adjust as needed) */
 padding-left: 10%;
-padding-top: 10%;
+padding-top: 20%;
   }
 
   .animation-container-PP {
@@ -109,7 +109,8 @@ padding-top: 10%;
     /* Vertically center the content */
     flex: 10    ; /* Takes up the remaining horizontal space */
     max-width: 100ch; /* Increase the height to make it taller */
-      }
+  
+  }
 
       
       .contact {

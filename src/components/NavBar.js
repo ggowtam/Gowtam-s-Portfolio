@@ -139,7 +139,7 @@ export default function Nav({ color }) {
               <></>
             )}
             <Button onClick={toggleColorMode}>
-              {colorMode === "Light" ? <MoonIcon /> : <SunIcon />}
+              {colorMode === "dark" ? <MoonIcon /> : <SunIcon />}
             </Button>
 
             {isLargerThanMD ? (
