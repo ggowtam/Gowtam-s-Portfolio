@@ -130,7 +130,7 @@ export default function Nav({ color }) {
                 <Button variant="ghost" onClick={scrollToContact}>
                   Contact
                 </Button>
-                <Button  as={Link}  href="https://drive.google.com/file/d/1Ub7OnkZCCeueq0iEjKnduJZtui1la_n6/view?usp=sharing" target="_blank" variant="outline" colorScheme="blue">
+                <Button  as={Link}  href="https://drive.google.com/file/d/12G3Qc1NIsw6uoWeL2EDy8MVxW-cz2K2p/view?usp=sharing" target="_blank" variant="outline" colorScheme="blue">
                   View Resume
                   </Button>
               </>
